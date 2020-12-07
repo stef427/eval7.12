@@ -66,8 +66,28 @@
 // 1 x 2 x 3 x 4 x 5 x 6 x 7 x 8
 
 
-let x = 10;
-for (let i = 0; i < x; i++) {
-    console.log(x * i * x);
+// let x = Number(prompt("entrez une valeur "))
+// let fact = 1
+// for (let i = 1; i <= x; i++) {
+//     fact = fact * i
+//     console.log(fact)}
 
-}
+
+
+//Exercice 5:Toujours  à  partir  de  deux  tableaux  précédemment  saisis,  écrivez  un algorithme qui calcule
+// le schtroumpf des deux tableaux. Pour calculer le schtroumpf, il faut multiplier chaque élément du tableau 1 par 
+//chaque élément du tableau 2, et additionner le tout. Par exemple si l'on a:Tableau 1:[4,8,7,1,2]Tableau 
+//2:[3,6] Le Schtroumpf sera:3 * 4 + 3 * 8 + 3 * 7 + 3 * 12 + 6 * 4 + 6 * 8 + 6 * 7 + 6 * 12 = 279
+
+let tab1 = [4, 8, 7, 12]
+
+let tab2 = [3, 6]
+    // let schtroumpf = tab2[0] * tab1[0] + tab2[0] * tab1[1] + tab2[0] * tab1[2] + tab2[0] * tab1[3] + tab2[1] * tab1[0] + tab2[1] * tab1[1] + tab2[1] * tab1[2] + tab2[1] * tab1[3];
+    // console.log(schtroumpf)
+
+
+for (let i = 0; i < tab1.length; i++) {
+    for (let j = 0; j < tab2.length; j++) {
+
+        i + tab1 * i + tab2
+        console.log()
